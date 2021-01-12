@@ -6,6 +6,9 @@ margin-right: auto;
 li {
   list-style: none;
 }
+h1 {
+  margin: 0;
+}
 #validation-input {
   border: 3px solid #bdbdbd;
 }
@@ -73,4 +76,13 @@ text-align: center;
 #counter button:hover {
 background-color:  #9d2921;
  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+#text {
+  padding-bottom: 60px;
+}
+
+.input-name {
+  padding-top: 20px;
+ text-align: center;
 }

@@ -19,7 +19,7 @@ const listImg = document.querySelector('#gallery')
 
 const addGallery = images.map((el) => {
   console.log(el);
-  const itemImg = `<li><img src="${el.url}" alt="${el.alt}"></li>`
+  const itemImg = `<li><img src="${el.url}" alt="${el.alt}" width="480" height="280" class='gallery-img-js'></li>`
   listImg.insertAdjacentHTML("beforeend", itemImg)
 })
 
